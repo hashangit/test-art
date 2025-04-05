@@ -1,24 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ART Framework Demo
 
-## Getting Started
+This is a Next.js application that demonstrates the ART (Agent Runtime) Framework using Gemini for reasoning.
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.x or later
+- A Gemini API key (https://aistudio.google.com/app/apikey)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env.local` file in the project root with your Gemini API key:
+   ```
+   NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Running the App
+
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Using the App
+
+1. **Initialization**: When you first load the app, it will initialize the ART Framework with your Gemini API key.
+
+2. **Asking Questions**: 
+   - Type your query in the input box at the bottom of the page
+   - Press "Send" or hit Enter to submit your query
+   - Try questions like "What is 256 multiplied by 48?" to see the calculator tool in action
+
+3. **Viewing Results**:
+   - **Chat History**: See the conversation between you and the assistant
+   - **Observations**: Watch real-time agent reasoning, including when it decides to use tools
+   - **Response**: View the final response and performance metrics
+
+4. **Features**:
+   - The app creates a persistent thread for your conversation
+   - All messages in a session maintain context
+   - You can see the detailed thought process of the AI agent
+   - The calculator tool is available for mathematical operations
+
+## Example Queries
+
+- "What is 1234 divided by 56?"
+- "Can you calculate 15% of 230?"
+- "If I have 5 apples and give away 2, then buy 3 more, how many do I have?"
+- "What's the square root of 144?"
+
+## Troubleshooting
+
+- If you see initialization errors, check that your Gemini API key is correct
+- If tool usage fails, ensure your query is clearly phrased for calculation needs
 
 ## Learn More
 
