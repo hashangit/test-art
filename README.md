@@ -21,7 +21,7 @@ This project is a demonstration application built with Next.js showcasing the ca
 *   **AI Runtime:** [ART Framework](https://github.com/google/labs-agent-runtime) <!-- Update link if different -->
 *   **AI Model:** [Google Gemini](https://deepmind.google/technologies/gemini/) (via API)
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com/) 4
-*   **UI Components:** [Radix UI](https://www.radix-ui.com/), [shadcn/ui](https://ui.shadcn.com/) (implied by `components.json`)
+*   **UI Components:** [Radix UI](https://www.radix-ui.com/), [shadcn/ui](https://ui.shadcn.com/)
 *   **Icons:** [Lucide React](https://lucide.dev/)
 
 ## 🚀 Getting Started
