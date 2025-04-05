@@ -23,7 +23,7 @@ export default function Home() {
     async function initialize() {
       try {
         setIsInitializing(true);
-        const art = await getArtInstance();
+        //const art = await getArtInstance();
         const newThreadId = generateThreadId();
         setThreadId(newThreadId);
         setError(null);

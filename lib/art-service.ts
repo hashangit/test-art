@@ -42,7 +42,7 @@ export async function getArtInstance(): Promise<ArtInstance> {
       },
       tools: [new CalculatorTool()],
     });
-    
+
     return artInstance;
   } catch (error) {
     console.error('Failed to initialize ART Instance', error);
@@ -52,7 +52,7 @@ export async function getArtInstance(): Promise<ArtInstance> {
 
 export async function processQuery(query: string, threadId: string): Promise<any> {
   const art = await getArtInstance();
-  
+
   // Set config for this thread if not already set
   try {
     await art.stateManager.setThreadConfig(threadId, defaultThreadConfig);

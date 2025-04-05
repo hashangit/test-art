@@ -50,7 +50,7 @@ function renderObservationContent(observation: Observation): React.ReactNode {
       </>
     );
   } else if (observation.type === 'ERROR') {
-    const errorContent = typeof observation.content === 'object' 
+    const errorContent = typeof observation.content === 'object'
       ? JSON.stringify(observation.content, null, 2)
       : observation.content.message || String(observation.content);
     return `Agent Error: ${errorContent}`;
