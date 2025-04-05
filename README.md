@@ -1,6 +1,6 @@
 # ART Framework Demo with Next.js and Gemini
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![ART Framework](https://img.shields.io/badge/ART_Framework-0.2.4-orange)](https://github.com/hashangit/art-framework) <!-- Assuming ART Framework has a repo/site -->
+[![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![ART Framework](https://img.shields.io/badge/ART_Framework-0.2.4-orange)](https://github.com/hashangit/ART) <!-- Assuming ART Framework has a repo/site -->
 
 This project is a demonstration application built with Next.js showcasing the capabilities of the **ART (Agent Runtime) Framework**. It utilizes Google's Gemini model for reasoning and includes a simple calculator tool to illustrate agent tool usage.
 
